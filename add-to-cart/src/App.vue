@@ -3,7 +3,7 @@
     <button @click="addItem({ id: 1, name: 'Товар', price: 10})">
       Добавить в корзину</button>
 
-      <h2>Карзина покупок</h2>
+      <h2>Корзина покупок</h2>
       <ul>
         <li v-for="item in cartItems" :key="item.id">{{ item.name }} - {{ item.price }}</li>
       </ul>
